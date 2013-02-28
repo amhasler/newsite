@@ -8,10 +8,10 @@
 @font-face {
 	font-family: 'fanwood';
 	src: url('../fonts/fanwood/fanwood_text-webfont.eot'); /* IE9 Compat Modes */
-	src:  url('../img/fanwood_text-webfont?#iefix')  format('embedded-opentype'), /* IE6-IE8 */
-	     url('../img/fanwood_text-webfont.woff') format('woff'), /* Modern Browsers */
-	     url('../img/fanwood_text-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-	     url('../img/fanwood_text-webfont.svg') format('svg'); /* Legacy iOS */
+	src:  url('../fonts/fanwood/fanwood_text-webfont?#iefix')  format('embedded-opentype'), /* IE6-IE8 */
+	     url('../fonts/fanwood/fanwood_text-webfont.woff') format('woff'), /* Modern Browsers */
+	     url('../fonts/fanwood/fanwood_text-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('../fonts/fanwood/fanwood_text-webfont.svg') format('svg'); /* Legacy iOS */
 }
 
 body {
@@ -76,8 +76,11 @@ h1 {
 
 hgroup img:first-child {
 	height:auto;
-	width:100%;
-	margin:20px auto 8%;
+	width:500px;
+	margin:100px 0px 0px -250px;
+	position:relative;
+	left:50%;
+
 }
 
 img.center-ornament {
@@ -138,36 +141,36 @@ hgroup {
 }
 
 hgroup.overview {
-	margin-top:50px;
+	margin-top:20px;
 }
 
-div.legend {
-	text-align:center;
+hgroup.overview h1 {
+	font-size:3.5em;
+	margin-top:0px;
 }
 
 svg {
 	overflow: hidden;
-	background-color:rgba(228,227,211,.4);
-	border:40px;
-	border-image:url(../img/frame.png) 180 repeat;
-	-moz-box-shadow:    3px 3px 5px 6px #ccc;
-	  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-	  box-shadow:         3px 3px 5px 6px #ccc;
 	position:relative;
 	width:100%;
-	height:auto;
-	max-width:580px;
+	padding-left:50px;
+}
+
+.main-visual {
+	background-color:rgba(228,227,211,.4);
+		-moz-box-shadow:    3px 3px 5px 6px #ccc;
+	  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+	  box-shadow:         3px 3px 5px 6px #ccc;
 }
 
 
 
-#Jobs > g:hover, #Jobs > path:hover  {
-  opacity:.5
+#Jobs > g:hover path, #Jobs > path:hover  {
+  stroke:#666;
 }
 
 #years > g:hover > rect {
-  stroke:#999;
-  stroke-width:5px;
+  fill:#666;
 }
 
 #textbox {
@@ -177,6 +180,11 @@ svg {
 .visual {
 	display:block;
 	float:left;
+	min-width:580px;
+	width:50%;
+	position:relative;
+	display:block;
+	margin-left:2%;
 }
 
 .legend {
@@ -186,21 +194,18 @@ svg {
 .legend h3 {
 	font-size:2.5em;
 	font-style:italic;
+	text-align:left;
+
 }
 
-
-.legend > div:first-child {
-	padding:40px 0px;
-	border-right:1px solid black;
-}
-
-.legend > div:last-child {
-	border-left:1px solid black;
-	padding:0px 20px;
-}
-
-.legend em {
+.legend > div > div > p:first-child {
 	text-decoration: underline;
+}
+
+
+.legend > h3:first-child {
+	text-decoration:underline;
+	text-align:left;
 }
 
 
@@ -210,7 +215,7 @@ svg {
 	margin:0;
 }
 
-li img {
+.block {
 	height:20px;
 	width:20px;
 	background-color:red;
@@ -219,7 +224,7 @@ li img {
 
 li div {
 	display: inline-block;
-	width: 100px;
+	width: 120px;
 }
 
 .directions li {
@@ -236,10 +241,204 @@ li div {
 	margin-bottom:20px;
 }
 
-.job-year-info {
-	padding-left:100px;
+.job-year-header h3:last-child {
+	font-size:3em;
+	line-height:1.2em;
 }
 
-.job-year-header h3:last-child {
-	font-size:4em;
+.job-year-header {
+	line-height: .5em;
+}
+
+.visual {
+}
+
+div.job-year-info {
+	margin-top:20px;
+	padding-left:20px ;
+	float:right;
+	display:block;
+	width:25%;
+	margin-left:2%;
+	margin-right:2%;
+
+}
+
+.job-year-info h3 {
+	font-size:2em;
+	font-weight:700;
+}
+
+.job-year-info ul {
+	margin-top:10px;
+}
+
+.job-year-info li {
+	font-size:1.2em;
+	line-height:1.5em;
+
+}
+
+#info-vis-center {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+@media (max-width: 979px) {
+  svg, .job-year-info {
+  	width:100%
+  }
+}
+
+.job-year-details {
+	margin-top:10px;
+}
+
+#boston {
+	background-color:rgb(239,242,232);
+}
+
+#ba {
+	background-color:rgb(238,238,176);
+}
+
+#dc {
+	background-color:#887853;
+}
+
+#havana {
+	background-color:rgb(216,194,191);
+}
+
+#service {
+	background-color:rgb(171,86,115);
+}
+
+#writing {
+	background-color:rgb(231,209,155);
+}
+
+#creative {
+	background-color:rgb(135,94,84);
+}
+
+#education {
+	background-color:rgb(100,118,147);
+}
+
+#web {
+	background-color:rgb(193,135,150);
+}
+
+.resume-top h2 {
+	font-size:2em;
+	line-height:1.5em;
+}
+
+.resume-top a {
+	color:black;
+}
+
+.header-square {
+	padding:35px 20px 0px;
+}
+
+.break {
+	width:100%;
+}
+
+.main-resume h3 {
+	text-align:left;
+}
+
+.job-desc {
+	width:75%;
+	padding-right:10px;
+	float:left;
+	margin-bottom:20px;
+}
+
+
+
+.job-date, .job-location {
+	width:20%;
+	text-align:center;
+	float:right;
+	margin-bottom:20px;
+	font-style: italic;
+}
+
+.divider-dot {
+	width:20%;
+	text-align:center;
+	float:right;
+	margin-bottom:20px;
+}
+
+.job-desc, .job-date, .job-location {
+	display:block;
+}
+
+.job-desc ul {
+	padding-left:70px;
+}
+
+.work-ex h3, .sidebar h3 {
+	border-bottom: 1px black solid;
+	margin-bottom:20px;
+}
+
+.divider-dot::after {
+	content: "\2726";
+}
+
+.sidebar ul {
+	font-size:large;
+	list-style: none;
+}
+
+.sidebar li {
+	line-height:2em;
+}
+
+.school-info h3 {
+	border:0px;
+	text-align:center;
+}
+
+.school-info, .skills li {
+	text-align:center;
+}
+
+.degrees {
+	margin:30px 0px;
+	font-size:1.5em;
+}
+
+@media print {
+	* {
+		float:none;
+	}
+
+	h1 {
+		font-size:3em;
+	}
+
+	.header-square h2 {
+		font-size:14pt;
+		font-style:italic;
+	}
+
+	h1, h2 {
+		line-height: 1em;
+	}
+
+	.header-square a:after, p a:first-child:after, .school-info a:after {
+     display: none;
+    }
+
+    section.sidebar {
+    	page-break-before:always;
+    }
+
 }

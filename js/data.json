@@ -1,0 +1,289 @@
+{ "years":[
+    {
+        "year_id":"thirteen",
+        "year_num":"2013",
+        "info": [
+            "I got married to Tory (n&eacute;e Choate) Hasler on Jan. 6 in Washington, D.C.",
+            "Learned Ruby on Rails",
+            "Learned Backbone.js"
+        ]
+    },
+    {
+        "year_id":"twelve",
+        "year_num":"2012",
+        "info": [
+            "Attended a full-day seminar by information visualization guru Edward Tufte",
+            "Got engaged to Tory at an oyster farm in Marin County, California",
+            "Went to Hong Kong",
+            "Learned Javascript",
+            "Work with money from a grant to build an online platform for social entrepreneurs",
+            "Went to Boston Startup School"
+        ]
+    },
+    {
+        "year_id":"eleven",
+        "year_num":"2011",
+        "info": [
+            "Got waitlisted for the Media Lab",
+            "Moved to Inman Square, Cambridge",
+            "Presented at the Connected Communities conference"
+        ]
+    },
+    {
+        "year_id":"ten",
+        "year_num":"2010",
+        "info": [
+            "Visited Chile and Patagonia",
+            "Discoverd how much fun playing craps is",
+            "Moved to Boston, Massachusetts when my now wife got into graduate school",
+            "Got it into my head to apply to the Media Lab",
+            "Ran Dorkbot Boston",
+            "Moved into the apartment on Cogswell St., Cambridge",
+            "Started doing Mysore-style Ashtanga yoga"
+        ]
+    },
+    {
+        "year_id":"nine",
+        "year_num":"2009",
+        "info": [
+            "Opened cafes at the Phillips Collection and Corcoran Museum of Art",
+            "Moved to Buenos Aires, to an apartment on Venezuela St. in the neighborhood of Monsterrat",
+            "<a href='http://d13pix9kaak6wt.cloudfront.net/avatar/amhasler_1351258979_9.jpg'>Learned to play polo</a>"
+        ]
+    },
+    {
+        "year_id":"eight",
+        "year_num":"2008",
+        "info": [
+            "Left the the full time management of the coffeehouse in the hands of my partner",
+            "Started writing professionally",
+            "Visited Amsterdam",
+            "Started exploring technological means by which to express my thinking about history",
+            "Decided to move abroad",
+            "Moved in with Tory at 3000 Connecticut Ave."
+        ]
+    },
+    {
+        "year_id":"seven",
+        "year_num":"2007",
+        "info": [
+            "Started modeling",
+            "<a href='http://www.washingtonlife.com/directories/photos/?letter=A&name=Adam-Hasler'>Became a general fancypants</a> in the D.C. social scene"
+        ]
+    },
+    {
+        "year_id":"six",
+        "year_num":"2006",
+        "info": [
+            "The most important event of my life: I met Tory (who I married over six years later)",
+            "Opened Modern Times Coffeehouse on March 1",
+            "My history project, Project Page One because I wanted to read, see, and year the great works of Western culture",
+            "Moved into the apartment at 16th and U St., where I first lived alone"
+        ]
+    },
+    {
+        "year_id":"five",
+        "year_num":"2005",
+        "info": [
+            "Graduated with my International Relations degree in May",
+            "Graduated with my History degree in December",
+            "Finished my history thesis, an analysis of a pamphlet war between English parliamentarians and landholders in the remaining colonies of the Western hemisphere following the American Revolution",
+            "Hatched a plan to open a coffeehouse in an abandoned building in Fort Reno park"
+        ]
+    },
+    {
+        "year_id":"four",
+        "year_num":"2004",
+        "info": [
+            "Studied abroad at the University of Havana. I went in order to study black markets and ended up writing a thesis in Spanish on poetry",
+            "My internship at the Organization of American States",
+            "Broke up with my longtime girlfriend I'd had since high school",
+            "Bought my first new car, a Mini Cooper"
+        ]
+    },
+    {
+        "year_id":"three",
+        "year_num":"2003",
+        "info": [
+            "Started boxing, a hobby I would keep up for many years",
+            "Became a mentor for freshman students in the School of International Service"
+        ]
+    },
+    {
+        "year_id":"two",
+        "year_num":"2002",
+        "info": [
+            "Started working at the coffeehouse at Politics &amp; Prose Bookstore, operated by Sirius Coffee Co., because I missed the bohemian coffeeshops of Austin",
+            "Work as a translator for a landscaping company in Austin",
+            "Moved to 5227 Connecticut Ave., which I came to call the 'House on Jenifer St.'",
+            "Visited Spain for spring break just to see a bullfight after I read <em>The Sun Also Rises</em>"
+        ]
+    },
+    {
+        "year_id":"one",
+        "year_num":"2001",
+        "info": [
+            "Graduated from Westlake High School in Austin, TX",
+            "Shocked everyone at my competitive high school by choosing American University, rather than Georgetown, for college",
+            "Got my first restaurant job at a crummy Italian restaurant where I worked as a busboy",
+            "Started college at American University",
+            "Moved into the 6th floor of Hughes Hall"
+        ]
+    }],
+    "jobs":[
+    {
+        "job_id":"icob",
+        "job_name":"Head Server, Island Creek Oyster Bar",
+        "info": ["Waited tables in a high volume, fine-dining, guest-centric restaurant",
+            "Attended seminars on sustainable seafood",
+            "Visited oyster farms to see the production of oysters first-hand",
+            "Gained significant expertise in high-end wine and champagne"
+        ]
+    },
+    {
+        "job_id":"AU",
+        "job_name":"Student, American University",
+        "info": ["Majored in International Relations with a focus on development in Latin America",
+            "Studied abroad in Havana, Cuba at the University of Havana",
+            "Declared a second degree in history",
+            "Started a graduate program in Comparative Theory in International Relations which I didn't finish"
+        ]
+    },
+    {
+        "job_id":"Sirius",
+        "job_name":"Barista, Sirius Coffee Co.",
+        "info": [
+            "I slung gourmet coffee drinks",
+            "My college job",
+            "I eventually founded Coup d'Etat Coffee Co. and replaced Sirius with my own operation in this location"
+        ]
+    },
+    {
+        "job_id":"OAS",
+        "job_name":"Intern, Organization of American States",
+        "info": [
+            "Bilingual support function for ProLiDem (Promoci&#243;n de Liderazgo Democr&#225;tico), which provided technical assistance for organizations throughout Latin America seeking to improve civic education"
+        ]
+    },
+    {
+        "job_id":"Bucks",
+        "job_name":"Server, Host, and Bartender, Buck's Fishing &amp; Camping",
+        "info": ["Job I took in order to learn the ropes of restaurants and hospitality"
+        ]
+    },
+    {
+        "job_id":"modernTimes",
+        "job_name":"Owner and Founder, Modern Times Coffeehouse",
+        "info": ["<a href='http://www.washingtonpost.com/wp-dyn/content/article/2006/07/25/AR2006072500352.html'>Leadership of a team of partners that acquired and rehabilitated an existing coffeehouse</a>",
+            "Management of business and financial operations",
+            "Operated by the LLC I started, Coup d'Etat Coffee Co.",
+            "Felt I could do more for the world by operating a neighborhood coffeehouse than the career in international development that I had planned",
+            "'In the black' after eighteen months",
+            "Met the woman I married here (she was a customer)",
+            "Maintained a great rapport with a huge number of regular guests",
+            "Generally worked myself into the ground"
+        ]
+    },
+    {
+        "job_id":"garden",
+        "job_name":"Server, Garden at the Cellar",
+        "info": ["I waited tables. Not complicated."
+        ]
+    },
+    {
+        "job_id":"TA",
+        "job_name":"Teaching and Research Assistant for Prof. April Shelford",
+        "info": ["Assisted with research for <a href='http://books.google.com/books?id=95kBSJ1uxIoC&lpg=PP1&ots=ZCVw2AaZcl&dq=transforming%20the%20republic%20of%20letters&pg=PP1#v=onepage&q&f=false'><i>Transforming the Republic of Letters: Pierre-Daniel Huet and European Intellectual Life, 1650-1720.</i></a>  April Shelford.  University of Rochester Press, 2007",
+            "Undergraduate Teaching Assistant, 'Rennaissance and Revolution: Europe, 1400-1815'"
+        ]
+    },
+    {
+        "job_id":"Innovations",
+        "job_name":"Associate Editor and Senior Researcher, <em>Innovations</em> Journal",
+        "info": ["Research and writing of case narratives", 
+            "general editing",
+            "Design and page layout for delivery to the publisher",
+            "Strategic planning for the journal"
+        ]
+    },
+    {
+        "job_id":"model",
+        "job_name":"Editorial Model, T.H.E. Artist Agency",
+        "info": ["Editorial model for D.C. area fashion scene",
+            "<a href='http://www.washingtonlife.com/issues/april-2007/fashion/images/fashion03.jpg'>Spread for <em>Washington Life</em> magazine and Sak's 5th Ave.</a>",
+            "Spread for sunglasses for <em>Washington Express</em>",
+            "I did it just to see if I could",
+            "Learned to 'hurry up and wait'",
+            "Made a total of $100",
+            "One quarter inch too short for runway work"
+        ]
+    },
+    {
+        "job_id":"lateral",
+        "job_name":"Apprentice, Estadio Lateral Media Lab",
+        "info": ["Development of interactive systems for installation and performance art", 
+            "North American liaison for Estado Lateral and its designers",
+            "Production of useful <a href='http://www.projectpageone.com/informes/sobre.html'>research and information in Spanish on interactive electronic systems and microcontrollers</a> for lab use"
+        ]
+    },
+    {
+        "job_id":"lpl",
+        "job_name":"Executive Assistant to art collector L.P. Lauthier",
+        "info": ["Assisted a prominent DC-area art collector in finding and acquiring high-value contemporary art",
+            "Assisted in the planning and design of a piece's outdoor installation",
+            "This job helped convince me that it was time to leave D.C."
+        ]
+    },
+    {
+        "job_id":"onthefly",
+        "job_name":"Consultant, On the Fly",
+        "info": ["Assistance to catering company's simultaneous launch and replication projects for two new retail caf&#233; operations in DC art institutions",
+        "Wrote operations manuals from scratch for both locations",
+        "Served as primary point of contact for the art museums' staff"
+        ]
+    },
+    {
+        "job_id":"comet",
+        "job_name":"Kitchen Manager, Comet Pizza &amp; Ping Pong",
+        "info": ["Managed the kitchen at a gourmet, avant garde pizza restaurant",
+        "Utilized my Spanish fluency for almost all of every shift",
+        "Used a traditional, wood-burning oven that required constant attention"
+        ]
+    },
+    {
+        "job_id":"independent",
+        "job_name":"Self-employed freelance professional",
+        "info": ["Used funding from a small grant to bring an academic journal online as a platform for sharing the drivers of social and economic change",
+            "Contributed editorial insights and produced relevant research for the author of <a href='http://thecomingprosperity.blogspot.com/'><em>The Coming Prosperity</em></a>, a book on innovation, international development, and social entrepreneurship",
+            "Presented independent research on <a href='http://side-creative.ncl.ac.uk/communities/symposium11/adam-hasler-et-al/'>design principles for technology that supports civic engagement and social change</a> at the Connected Communities Symposium at the University of Newcastle, UK",
+            "Edited and researched a revisionist economic history of China for the <a href='http://legatum.mit.edu/'>Legatum Center for Development &amp; Entrepreneurship</a> at the Massachusetts Institute of Technology"
+        ]
+    },
+    {
+        "job_id":"bss",
+        "job_name":"Product &amp; Design Student, Boston Startup School",
+        "info": ["Advanced through a highly selective application process for an eight-week intensive program to prepare me for life in a startup",
+        "Engaged with founders and leaders of successful Boston-area startups",
+        "Focused on product development and design, and studied subjects such as prototyping, typography, and responsive design",
+        "Completed a six-week project for Boston startup myEnergy, a microsite for accessing federal Green Button data"
+        ]
+    },
+    {
+        "job_id":"PP1",
+        "job_name":"Writer and Researcher, Project Page One",
+        "info": [ "<a href='http://amhasler.blogspot.com'>My Blog</a>",
+        "Mapped the cultural canon of the western world",
+        "Wrote tens of thousands of words on cultural evolution, historiography, and creative production"
+        ]
+    },
+    {
+        "job_id":"devdesign",
+        "job_name":"Professional Web Designer &amp; Developer",
+        "info": [ "Information visualization with Processing",
+        "Typography and color theory",
+        "Learned how to use Twitter Bootstrap",
+        "Responsive Design",
+        "Single Page Applications and Sites"
+        ]
+    }] 
+}
